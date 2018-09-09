@@ -3,19 +3,32 @@ c:\users\administrator\documents\visual studio 2013\projects\my\my\debug\vc120.p
 c:\users\administrator\documents\visual studio 2013\projects\my\my\debug\vc120.idb
 c:\users\administrator\documents\visual studio 2013\projects\my\my\debug\stdafx.obj
 c:\users\administrator\documents\visual studio 2013\projects\my\my\debug\kaitaidlg.obj
-c:\users\administrator\documents\visual studio 2013\projects\my\my\debug\logindlg.obj
 c:\users\administrator\documents\visual studio 2013\projects\my\my\debug\my.obj
 c:\users\administrator\documents\visual studio 2013\projects\my\my\debug\mydlg.obj
+c:\users\administrator\documents\visual studio 2013\projects\my\my\debug\logindlg.obj
+d:\github\test1\my\my\debug\my.pch
+d:\github\test1\my\my\debug\vc120.pdb
+d:\github\test1\my\my\debug\vc120.idb
+d:\github\test1\my\my\debug\stdafx.obj
+d:\github\test1\my\my\debug\kaitaidlg.obj
+d:\github\test1\my\my\debug\logindlg.obj
+d:\github\test1\my\my\debug\my.obj
+d:\github\test1\my\my\debug\mydlg.obj
+d:\github\test1\my\my\debug\diancaidlg.obj
 c:\users\administrator\documents\visual studio 2013\projects\my\debug\my.ilk
 c:\users\administrator\documents\visual studio 2013\projects\my\debug\my.exe
 c:\users\administrator\documents\visual studio 2013\projects\my\debug\my.pdb
+d:\github\test1\my\debug\my.ilk
+d:\github\test1\my\debug\my.exe
+d:\github\test1\my\debug\my.pdb
 c:\users\administrator\documents\visual studio 2013\projects\my\my\debug\my.res
-c:\users\administrator\documents\visual studio 2013\projects\my\my\debug\my.tlog\cl.command.1.tlog
-c:\users\administrator\documents\visual studio 2013\projects\my\my\debug\my.tlog\cl.read.1.tlog
-c:\users\administrator\documents\visual studio 2013\projects\my\my\debug\my.tlog\cl.write.1.tlog
-c:\users\administrator\documents\visual studio 2013\projects\my\my\debug\my.tlog\link.command.1.tlog
-c:\users\administrator\documents\visual studio 2013\projects\my\my\debug\my.tlog\link.read.1.tlog
-c:\users\administrator\documents\visual studio 2013\projects\my\my\debug\my.tlog\link.write.1.tlog
-c:\users\administrator\documents\visual studio 2013\projects\my\my\debug\my.tlog\rc.command.1.tlog
-c:\users\administrator\documents\visual studio 2013\projects\my\my\debug\my.tlog\rc.read.1.tlog
-c:\users\administrator\documents\visual studio 2013\projects\my\my\debug\my.tlog\rc.write.1.tlog
+d:\github\test1\my\my\debug\my.res
+d:\github\test1\my\my\debug\my.tlog\cl.command.1.tlog
+d:\github\test1\my\my\debug\my.tlog\cl.read.1.tlog
+d:\github\test1\my\my\debug\my.tlog\cl.write.1.tlog
+d:\github\test1\my\my\debug\my.tlog\link.command.1.tlog
+d:\github\test1\my\my\debug\my.tlog\link.read.1.tlog
+d:\github\test1\my\my\debug\my.tlog\link.write.1.tlog
+d:\github\test1\my\my\debug\my.tlog\rc.command.1.tlog
+d:\github\test1\my\my\debug\my.tlog\rc.read.1.tlog
+d:\github\test1\my\my\debug\my.tlog\rc.write.1.tlog

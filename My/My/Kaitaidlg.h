@@ -27,4 +27,5 @@ public:
 	afx_msg void OnNMDblclkList2(NMHDR *pNMHDR, LRESULT *pResult);
 	virtual BOOL OnInitDialog();
 	virtual void OnOK();
+	afx_msg void OnNMClickList2(NMHDR *pNMHDR, LRESULT *pResult);
 };

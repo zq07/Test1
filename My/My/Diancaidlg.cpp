@@ -5,6 +5,7 @@
 #include "My.h"
 #include "Diancaidlg.h"
 #include "afxdialogex.h"
+#include "Shuliangdlg.h"
 
 
 // CDiancaidlg 对话框
@@ -54,10 +55,18 @@ void CDiancaidlg::OnBnClickedButtonadd()
 {
 	// TODO:  在此添加控件通知处理程序代码
 	int i = m_CaidanList.GetSelectionMark();
-	CString str = m_CaidanList.GetItemText(i, 0);
-	m_CaidanCheck.InsertItem(0, _T(""));
-	m_CaidanCheck.SetItemText(0, 0, str);
-	m_CaidanCheck.SetItemText(0, 1, _T("1"));
+	if (i >= 0)
+	{
+		CShuliangdlg shuliang;
+		if (shuliang.DoModal() == IDOK)
+		{
+			CString str = m_CaidanList.GetItemText(i, 0);
+			m_CaidanCheck.InsertItem(0, _T(""));
+			m_CaidanCheck.SetItemText(0, 0, str);
+			m_CaidanCheck.SetItemText(0, 1, shuliang.m_Shuliang);
+		}	
+	}
+	
 }
 
 

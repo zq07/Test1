@@ -35,6 +35,7 @@ BEGIN_MESSAGE_MAP(CKaitaidlg, CDialog)
 	ON_BN_CLICKED(IDC_BUTTON_OK, &CKaitaidlg::OnBnClickedButtonOk)
 	ON_BN_CLICKED(IDC_BUTTON_return, &CKaitaidlg::OnBnClickedButtonreturn)
 	ON_NOTIFY(NM_DBLCLK, IDC_LIST2, &CKaitaidlg::OnNMDblclkList2)
+	ON_NOTIFY(NM_CLICK, IDC_LIST2, &CKaitaidlg::OnNMClickList2)
 END_MESSAGE_MAP()
 
 
@@ -44,6 +45,7 @@ END_MESSAGE_MAP()
 void CKaitaidlg::OnBnClickedButtonOk()
 {
 	// TODO:  在此添加控件通知处理程序代码
+
 	UpdateData();
 	if (m_ZhuoHao.IsEmpty())
 	{
@@ -101,4 +103,16 @@ void CKaitaidlg::OnOK()
 	// TODO:  在此添加专用代码和/或调用基类
 
 	OnBnClickedButtonOk();
+}
+
+
+void CKaitaidlg::OnNMClickList2(NMHDR *pNMHDR, LRESULT *pResult)
+{
+	LPNMITEMACTIVATE pNMItemActivate = reinterpret_cast<LPNMITEMACTIVATE>(pNMHDR);
+	// TODO:  在此添加控件通知处理程序代码
+	CString str;
+	str = m_ZhuoList.GetItemText(m_ZhuoList.GetSelectionMark(), 0);
+	m_ZhuoHao = str;
+	UpdateData(false);
+	*pResult = 0;
 }
