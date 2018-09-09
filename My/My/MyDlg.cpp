@@ -64,7 +64,7 @@ BEGIN_MESSAGE_MAP(CMyDlg, CDialogEx)
 	ON_WM_SYSCOMMAND()
 	ON_WM_PAINT()
 	ON_WM_QUERYDRAGICON()
-	ON_COMMAND(ID_MENU_login, OnMenulogin)
+	ON_COMMAND(ID_MENU_login, &CMyDlg::OnMenulogin)
 	ON_COMMAND(ID_MENU_kaitai, &CMyDlg::OnMenukaitai)
 	ON_COMMAND(ID_MENU_addcai, &CMyDlg::OnMenuaddcai)
 	ON_COMMAND(ID_MENU_jiezhang, &CMyDlg::OnMenujiezhang)
@@ -81,7 +81,7 @@ BEGIN_MESSAGE_MAP(CMyDlg, CDialogEx)
 	ON_COMMAND(ID_MENU_new, &CMyDlg::OnMenunew)
 	ON_COMMAND(ID_MENU_quanxian, &CMyDlg::OnMenuquanxian)
 	ON_COMMAND(ID_about, &CMyDlg::Onabout)
-	ON_COMMAND(IDB_login, OnMenulogin)
+	ON_COMMAND(IDB_login, &CMyDlg::OnMenulogin)
 	ON_COMMAND(IDB_kaitai, &CMyDlg::OnMenukaitai)
 	ON_COMMAND(IDB_add, &CMyDlg::OnMenuaddcai)
 	ON_COMMAND(IDB_pay, &CMyDlg::OnMenujiezhang)
@@ -281,7 +281,6 @@ void CMyDlg::OnMenukaitai()
 	// TODO:  在此添加命令处理程序代码
 	CKaitaidlg kaitai;
 	kaitai.DoModal();
-	MessageBox(_T("开台成功"));
 	return;
 }
 

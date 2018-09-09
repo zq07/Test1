@@ -101,6 +101,7 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Diancaidlg.h" />
     <ClInclude Include="Kaitaidlg.h" />
     <ClInclude Include="Logindlg.h" />
     <ClInclude Include="My.h" />
@@ -110,6 +111,7 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Diancaidlg.cpp" />
     <ClCompile Include="Kaitaidlg.cpp" />
     <ClCompile Include="Logindlg.cpp" />
     <ClCompile Include="My.cpp" />

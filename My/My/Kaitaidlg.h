@@ -1,4 +1,5 @@
 #pragma once
+#include "afxcmn.h"
 
 
 // CKaitaidlg 对话框
@@ -18,4 +19,12 @@ protected:
 	virtual void DoDataExchange(CDataExchange* pDX);    // DDX/DDV 支持
 
 	DECLARE_MESSAGE_MAP()
+public:
+	CListCtrl m_ZhuoList;
+	CString m_ZhuoHao;
+	afx_msg void OnBnClickedButtonOk();
+	afx_msg void OnBnClickedButtonreturn();
+	afx_msg void OnNMDblclkList2(NMHDR *pNMHDR, LRESULT *pResult);
+	virtual BOOL OnInitDialog();
+	virtual void OnOK();
 };
