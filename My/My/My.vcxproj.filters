@@ -45,6 +45,15 @@
     <ClInclude Include="Shuliangdlg.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="Jiacaidlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Zhucedlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Jiezhangdlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="My.cpp">
@@ -66,6 +75,15 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="Shuliangdlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Jiacaidlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Zhucedlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Jiezhangdlg.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

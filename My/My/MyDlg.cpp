@@ -8,6 +8,7 @@
 #include "afxdialogex.h"
 #include "Logindlg.h"
 #include "Kaitaidlg.h"
+#include "Jiacaidlg.h"
 
 #ifdef _DEBUG
 #define new DEBUG_NEW
@@ -85,7 +86,7 @@ BEGIN_MESSAGE_MAP(CMyDlg, CDialogEx)
 	ON_COMMAND(IDB_kaitai, &CMyDlg::OnMenukaitai)
 	ON_COMMAND(IDB_add, &CMyDlg::OnMenuaddcai)
 	ON_COMMAND(IDB_pay, &CMyDlg::OnMenujiezhang)
-	ON_COMMAND(IDB_rishouru, &CMyDlg::OnMenurishouru)
+	ON_COMMAND(IDB_rishouru, &CMyDlg::Onrishouru)
 	ON_COMMAND(IDB_reg, &CMyDlg::OnMenuyuangong)
 	ON_COMMAND(IDB_cancel, &CMyDlg::OnCancel)
 END_MESSAGE_MAP()
@@ -288,7 +289,8 @@ void CMyDlg::OnMenukaitai()
 void CMyDlg::OnMenuaddcai()
 {
 	// TODO:  在此添加命令处理程序代码
-	MessageBox(_T("加减菜成功"));
+	CJiacaidlg jiacai;
+	jiacai.DoModal();
 	return;
 }
 
@@ -348,6 +350,12 @@ void CMyDlg::OnMenurishouru()
 	return;
 }
 
+void CMyDlg::Onrishouru()
+{
+	// TODO:  在此添加命令处理程序代码
+	MessageBox(_T("本日营业额为：12元"), _T("日收入"));
+	return;
+}
 
 void CMyDlg::OnMenuyueshouru()
 {

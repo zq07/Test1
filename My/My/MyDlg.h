@@ -45,6 +45,7 @@ public:
 	afx_msg void OnMenuSpinfo();
 	afx_msg void OnMenuCp();
 	afx_msg void OnMenurishouru();
+	afx_msg void Onrishouru();
 	afx_msg void OnMenuyueshouru();
 	afx_msg void OnMenujinhuoselect();
 	afx_msg void OnMenusqlcopy();
