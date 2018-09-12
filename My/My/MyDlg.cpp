@@ -9,6 +9,18 @@
 #include "Logindlg.h"
 #include "Kaitaidlg.h"
 #include "Jiacaidlg.h"
+#include "Jiezhangdlg.h"
+#include "Zhucedlg.h"
+#include "JHselect.h"
+#include "RSRCX.h"
+#include "YSRdlg.h"
+#include "Quanxiandlg.h"	
+#include "Copydlg.h"
+#include "Returndlg.h"
+#include "Spinfo.h"
+#include "Jinhuodlg.h"
+#include "CPdlg.h"
+
 
 #ifdef _DEBUG
 #define new DEBUG_NEW
@@ -298,7 +310,8 @@ void CMyDlg::OnMenuaddcai()
 void CMyDlg::OnMenujiezhang()
 {
 	// TODO:  在此添加命令处理程序代码
-	MessageBox(_T("结账成功"));
+	CJiezhangdlg jiezhang;
+	jiezhang.DoModal();
 	return;
 }
 
@@ -322,7 +335,8 @@ void CMyDlg::OnMenujinhuo()
 void CMyDlg::OnMenuyuangong()
 {
 	// TODO:  在此添加命令处理程序代码
-	MessageBox(_T("员工管理"));
+	CZhucedlg zhuce;
+	zhuce.DoModal();
 	return;
 }
 

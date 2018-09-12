@@ -54,6 +54,33 @@
     <ClInclude Include="Jiezhangdlg.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="Copydlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CPdlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Returndlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Jinhuodlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="JHselect.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Quanxiandlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RSRCX.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YSRdlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SpInfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="My.cpp">
@@ -84,6 +111,33 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="Jiezhangdlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Copydlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CPdlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Returndlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Jinhuodlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="JHselect.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Quanxiandlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RSRCX.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="YSRdlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SpInfo.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

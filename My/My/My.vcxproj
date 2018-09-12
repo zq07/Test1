@@ -101,32 +101,50 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Copydlg.h" />
+    <ClInclude Include="CPdlg.h" />
     <ClInclude Include="Diancaidlg.h" />
+    <ClInclude Include="JHselect.h" />
     <ClInclude Include="Jiacaidlg.h" />
     <ClInclude Include="Jiezhangdlg.h" />
+    <ClInclude Include="Jinhuodlg.h" />
     <ClInclude Include="Kaitaidlg.h" />
     <ClInclude Include="Logindlg.h" />
     <ClInclude Include="My.h" />
     <ClInclude Include="MyDlg.h" />
+    <ClInclude Include="Quanxiandlg.h" />
     <ClInclude Include="Resource.h" />
+    <ClInclude Include="Returndlg.h" />
+    <ClInclude Include="RSRCX.h" />
     <ClInclude Include="Shuliangdlg.h" />
+    <ClInclude Include="SpInfo.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
+    <ClInclude Include="YSRdlg.h" />
     <ClInclude Include="Zhucedlg.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Copydlg.cpp" />
+    <ClCompile Include="CPdlg.cpp" />
     <ClCompile Include="Diancaidlg.cpp" />
+    <ClCompile Include="JHselect.cpp" />
     <ClCompile Include="Jiacaidlg.cpp" />
     <ClCompile Include="Jiezhangdlg.cpp" />
+    <ClCompile Include="Jinhuodlg.cpp" />
     <ClCompile Include="Kaitaidlg.cpp" />
     <ClCompile Include="Logindlg.cpp" />
     <ClCompile Include="My.cpp" />
     <ClCompile Include="MyDlg.cpp" />
+    <ClCompile Include="Quanxiandlg.cpp" />
+    <ClCompile Include="Returndlg.cpp" />
+    <ClCompile Include="RSRCX.cpp" />
     <ClCompile Include="Shuliangdlg.cpp" />
+    <ClCompile Include="SpInfo.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="YSRdlg.cpp" />
     <ClCompile Include="Zhucedlg.cpp" />
   </ItemGroup>
   <ItemGroup>
